@@ -120,6 +120,12 @@ a{
     font-size: 1.5rem;
 }
 
+.reg{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .button:hover{
     -webkit-transform:scale(1);
     transform:scale(1.05);
