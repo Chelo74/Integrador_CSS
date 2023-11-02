@@ -1,0 +1,293 @@
+
+/* ----------> Media Querys <----------*/
+
+@media screen and (max-width: 980px){
+
+    .text{
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        width: 60px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    
+    .btn--modifier{
+        font-size: 1.2rem;
+    }
+    
+    .hero{
+        height: 60vh;
+    }
+    
+    .container h1{
+        font-size: 3rem;
+    }
+    
+    .container__callaction{
+        height: 50%;
+        gap: 10px;
+    }
+    
+    .container__paragraph p{
+        font-size: 1.7rem;
+        line-height: 3rem;
+    }
+    
+    .btn__call-modifier{
+        height: 35px;
+        width: 180px;
+    }
+
+    .title__h2{
+        font-size: 2.7rem;
+    }
+
+    .product__item{
+        width: 60%;
+    }
+
+    .product__item img{
+        display: none;
+    }
+
+    .item__containerProd{
+        background-image: url('./Img/watches.01.JPG');
+        width: 100%;
+    }
+
+    .item__containerProd--modifier{
+        background-image: url('./Img/smart.01.JPG');
+    }
+
+    .collections__container{
+        grid-template-columns: 30% 60%;
+        grid-template-rows: 50% 50%;
+        height: 60%;
+        gap: 10px;
+    }
+
+    .contact__container{
+        height: 70%;
+        width: 83%;
+    }
+
+}
+
+@media screen and (max-width: 890px){
+
+    .hero{
+        height: 50vh;
+    }
+
+    .header{
+        height: 30%;
+    }
+
+    .navbar{
+        border-radius: 10px;
+    }
+
+    .navbar__items{
+        gap: 20px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .container__paragraph{
+        display: none;
+    }
+
+    .section__products{
+        gap: 10px;
+    }
+
+    .product__item{
+        height: 40%;
+    }
+
+    .container{
+        gap: 5px;
+    }
+
+    .card{
+        height: 220px;
+        width: 160px;
+    }
+
+    .collections__container{
+        grid-template-areas: 
+        "item1" 
+        "item2"
+        "item3";
+        grid-template-columns: 80%;
+        grid-template-rows: 30% 30% 30%;
+        gap: 20px;
+        height: 80%;
+    }
+    
+    .item1{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item__container--modifier{
+        height: 100%;
+        margin-left: 70px;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .footer__container{
+        width: 95px;
+    }
+
+}
+
+@media screen and (max-width: 660px){
+
+    .navbar ul{
+        background-color: rgba(0, 0, 0, 0.90);
+        width: 100%;
+        height: calc(100vh - 20vh);
+        position: absolute;
+        top: 12vh;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.5s ease-out;
+        gap: 50px;
+        font-weight: 550;
+    }
+
+    .navbar i{
+        display: block;
+    }
+
+    #login{
+        display: initial;
+    }
+
+    #toggle-menu:checked ~ .navbar__items{
+        transform: translateX(0%);
+        transition: all 0.5s ease-in;
+    }
+
+    .hero{
+        height: 15vh;
+    }
+
+    .header{
+        height: 90%;
+    }
+
+    .navbar{
+        border-radius: 10px;
+        width: 60%;
+    }
+
+    .text{
+        font-size: 1.5rem;
+        color: var(--white);
+    }
+
+    .home{
+        display: none;
+    }
+
+    .container__btn{
+        display: none;
+    }
+
+    .main{
+        display: none;
+    }
+
+    .section__products{
+        display: none;
+    }
+
+    /* .offerts{
+        display: none;
+    } */
+
+    .offerts{
+        margin-top: 30px;
+    }
+
+    .container__cards{
+        width: 80%;
+        gap: 20px;
+    }
+
+    .collections{
+        display: none;
+    }
+
+    .section__general{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 17px;
+    }
+
+    .item__container--paragraph{
+        color: var(--black);
+        font-size: 2rem;
+    }
+    
+    .general__item a{
+        background-color: transparent;
+        color: var(--black);
+        font-size: 1.2rem;
+        text-decoration: none;
+        /* border: var(--black) solid 1px;
+        width: 140px;
+        height: 35px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+        height: 15vh;
+    }
+
+    .footer img{
+        height: 50%;
+    }
+
+    .section__footer{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+
+    .navbar{
+        width: 85%;
+    }
+
+    .title__h2{
+        font-size: 2.4rem;
+    }
+
+    .card{
+        height: 170px;
+        width: 120px;
+    }
+
+}
