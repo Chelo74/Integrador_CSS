@@ -23,6 +23,7 @@
     --pink: #FF8484;
     --blue: #0D1321;
     --grey: #E4E6C3;
+    --brown: #5A352A;
 }
 
 /* ----------> Hero <----------*/
@@ -300,6 +301,10 @@
     align-items: center;
 }
 
+.item1 img{
+    display: none;
+}
+
 .item2{
     grid-area: item2;
     background-color: var(--pink);
@@ -374,26 +379,6 @@
     font-size: 2.5rem;
 }
 
-/* ----------> Section General <----------*/
-
-.section__general{
-    display: none;
-}
-
-.general__item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 110px;
-    width: 80%;
-    background-color: var(--grey);
-    border-radius: 12px;
-    box-shadow: 0px 0px 8px rgba(119, 119, 117, 0.6);
-    gap: 12px;
-}
-
-
 /* ----------> Section Footer <----------*/
 
 .footer{
@@ -457,6 +442,8 @@
     max-height: 70px;
     margin-top: 20px;
 }
+
+/* ----------> Home <----------*/
 
 .home{
     height: 50px;
