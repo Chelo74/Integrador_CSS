@@ -13,7 +13,7 @@
     }
 
     .navbar{
-        width: 75%;
+        width: 70%;
     }
 
     /* -------------- Hero -------------- */
@@ -160,7 +160,7 @@
         "item1" 
         "item2"
         "item3";
-        grid-template-columns: 80%;
+        grid-template-columns: 70%;
         grid-template-rows: 30% 30% 30%;
         gap: 20px;
         height: 80%;
@@ -189,7 +189,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transform: translateX(300%);
+        transform: translateX(200%);
         transition: all 0.5s ease-out;
         gap: 50px;
         font-weight: 550;
