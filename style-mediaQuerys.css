@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 992px){
 
-    /* Home */
+    /* -------------- Home -------------- */
 
     .home{
         height: 45px;
@@ -12,11 +12,8 @@
         left: 10px;
     }
 
-    /* Hero */
 
-    .navbar{
-        width: 80%;
-    }
+    /* -------------- Hero -------------- */
 
     .text{
         font-size: 1.2rem;
@@ -47,7 +44,8 @@
         font-size: 1.5rem;
     }
 
-    /* Products */
+
+    /* -------------- Products -------------- */
 
     .title__h2{
         font-size: 2.7rem;
@@ -66,7 +64,8 @@
         width: 65%;
     }
 
-    /* Oferts */
+
+    /* -------------- Oferts -------------- */
 
     .container__cards{
         max-width: 600px;
@@ -83,7 +82,8 @@
         font-size: 1.4rem;
     }
 
-    /* Collections */
+
+    /* -------------- Collections -------------- */
 
     .collections{
         height: 95vh;
@@ -107,7 +107,8 @@
         height: 30px;
     }
 
-    /* Contact */
+
+    /* -------------- Contact -------------- */
 
     .contact{
         height: 35vh;
@@ -134,7 +135,7 @@
     }
 
     .hero{
-        height: 55vh;
+        height: 50vh;
     }
 
     .header{
@@ -170,8 +171,8 @@
 
     .navbar{
         justify-content: space-around;
-        width: 70%;
-        gap: 120px;
+        width: 60%;
+        gap: 50px;
         border-radius: 5px;
     }
 
@@ -210,7 +211,7 @@
 
     .text{
         color: var(--white);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .main{
@@ -221,7 +222,8 @@
         gap: 9px;
     }
 
-    /* Offerts */
+
+    /* -------------- Offerts -------------- */
 
     .card__paragraph{
         font-size: 1.2rem;
@@ -247,9 +249,12 @@
 
     .card{
         gap: 8px;
+        height: 210px;
+        width: 170px;
     }
 
-    /* Collections */
+
+    /* -------------- Collections -------------- */
 
     .item1{
         background-color: var(--brown);
@@ -270,7 +275,8 @@
         gap: 8px;  
     }
 
-    /* Products */
+
+    /* -------------- Products -------------- */
 
     .title__h2{
         font-size: 1.8rem;
@@ -298,12 +304,6 @@
         display: none;
     }
 
-    /* .item__container{
-        width: 100%;
-        gap: 8px;
-        
-    } */
-
     .item__containerProd{
         background-image: url('./Img/backgroundProduct.JPG');
     }
@@ -320,7 +320,8 @@
         height: 30px;
     }
 
-    /* Contact */
+
+    /* -------------- Contact -------------- */
 
     .contact__container{
         height: 70%;
@@ -332,7 +333,8 @@
         font-size: 1.8rem;
     }
 
-    /* Footer */
+
+    /* -------------- Footer -------------- */
 
     .footer{
         height: 30vh;
@@ -373,10 +375,6 @@
 
 @media screen and (max-width: 576px){
 
-    .home{
-        display: none;
-    }
-
     .container__btn{
         display: none;
     }
@@ -391,7 +389,7 @@
 
     .navbar{
         gap: 35px;
-        width: 80%;
+        /* width: 80%; */
         height: 70%;
         box-shadow: 0px 0px 8px rgba(247, 247, 242, 0.4);
     }
@@ -446,78 +444,9 @@
         height: 170px;
         width: 120px;
     }
-
-    /* Products */
-
-    /* .title__h2{
-        font-size: 1.8rem;
-    }
-
-    .section__products{
-        height: 70vh;
-        gap: 0px;
-    }
-
-    .container__product{
-        height: 75%;
-        gap: 20px;
-    }
-
-    .product__item{
-        width: 90%;
-        min-width: 280px;
-        max-width: 390px;
-        height: 35%;
-        min-height: 100px;
-    }
-
-    .product__item img{
-        display: none;
-    } */
-
-    /* .item__container{
-        width: 100%;
-        gap: 8px;
-        
-    } */
-
-    /* .item__containerProd{
-        background-image: url('./Img/backgroundProduct.JPG');
-    }
-
-    .item__container--paragraph{
-        color: var(--white);
-        font-size: 1.5rem;
-        font-weight: 100;
-    }
-    
-    .item__container a{
-        font-size: 1.1rem;
-        width: 125px;
-        height: 30px;
-    } */
-
-    /* Oferts */
-
-    /* .offerts{
-        width: 100%;
-        gap: 10px;
-        color: var(--black);
-        margin-bottom: 20px;
-        margin-top: 0px;
-    } */
-
-    /* .container__cards{
-        max-width: 400px;
-        gap: 30px;
-    } */
-
-    /* .card{
-        gap: 8px;
-    } */
     
     
-    /* Collections */
+    /* -------------- Collections -------------- */
 
     .collections{
         gap: 20px;
@@ -529,21 +458,8 @@
         grid-template-rows: 30% 30% 30%;
     }
 
-    /* .item1{
-        background-color: var(--brown);
-        background-image: none;
-    }
 
-    .item1 img{
-        display: initial;
-    }
-
-    .collection__modifier{
-        height: 100%;
-        width: 50%;
-    } */
-
-    /* Contact */
+    /* -------------- Contact -------------- */
 
     .contact{
         height: 25vh;
@@ -554,46 +470,6 @@
         width: 80%;
         /* background-image: url('./Img/backgroundContact.JPG'); */
     }
-    
-    /* .contact__container a{
-        font-size: 1.8rem;
-    } */
-
-    /* Footer */
-
-    .footer{
-        height: 30vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    /* .section__footer{
-        width: 90%;
-        height: 65%;
-        gap: 30px;
-    } */
-    
-    /* .footer__container{
-        height: 100%;
-        width: 120px;
-    } */
-    
-    /* .footer__container h3{
-        font-size: 1.4rem;
-    } */
-    
-    /* .footer__item a{
-        font-size: 1.2rem;
-    } */
-
-    /* .footer__item--modifier i{
-        font-size: 2.1rem;
-    } */
-    
-    /* .footer img{
-        display: none;
-    } */
 
 }
 
